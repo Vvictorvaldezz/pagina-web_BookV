@@ -1,0 +1,138 @@
+body{
+    background-color: #03A9F4;
+}
+
+.contenedor{
+    background-color: #03A9F4;
+    max-width: 3000px;
+    max-height: max-content;
+    margin: 0 auto;
+    padding: 20px 30px 0;
+}
+h1, h2 {
+    color: #000000 ;
+    text-align: center;
+}
+
+.heater-sitio, aside{
+    background-color:  #a04af1;
+    padding: 0 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:  15px;
+}
+@media screen and (min-width:768px) {
+.heater-sitio{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor-flex aside a{
+    
+}
+
+}
+    ul{
+    display: flex;
+}
+    li{
+    margin-right: 15px;
+}
+li:hover{
+   /* background-color: #2013e2;*/
+}
+.heater-sitio h1{
+
+}
+nav{
+    
+}
+nav a{
+    text-decoration: none;
+    color: #26e7f5;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.contenedor-flex{
+/* flex */
+   margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    /*background-color: black; */
+    justify-content: space-between;
+}
+.contenedor-flex aside a{
+    text-decoration: none;
+    color: #26e7f5;
+}
+
+.contenedor-flex aside li{
+    list-style: none;
+}
+
+.principal{
+/* flex */
+    flex-direction: row;
+    align-content: center;
+}
+.servicios{
+
+    margin-top: 10px;
+   display: flex;
+   margin-bottom: 15px;
+}
+.servicio{
+    background-color: #1bdb0a;
+    padding: 5px;
+    margin: 0 5px 0;
+    width: 32%;
+    align-items: center;
+}
+.servicio:nth-child(2){
+    background-color:#19dd82;    
+    width: 32%;
+}
+.servicio:nth-child(3){
+    background-color:#f0ff23;
+    width: 32%;
+}
+
+aside{
+    background-color: #e22c96;
+    margin: 10px 10px 1opx 10px;
+    align-items: right;
+    padding-left: 20px;
+    width: 55%;
+}
+aside ul{
+
+    flex-direction: column;
+}
+@media screen and (max-width:768px ) {
+.contenedor-flex{
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+aside{
+    width: 100%;
+}
+.principal{
+    width: 100%;
+}
+}
+h3 {
+    color: #ffffff;
+    text-align: center;
+}
+    footer{
+ 
+      
+    background-color: #9e9d98;
+    height: 50px;
+
+}
